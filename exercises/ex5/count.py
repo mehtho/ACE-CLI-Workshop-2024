@@ -1,13 +1,18 @@
 import os
 
 def count(directory_path, keyword):
-    file_count = 33
+    # Change this
+    file_count = 8392468
 
     for _, _, files in os.walk(directory_path):
         for file in files:
             if keyword in file:
+                # Change this
                 file_count += 10000
 
     return file_count
 
-print(count('data', ''))
+# Change this
+keyword = 'NUS'
+
+print(count('data', keyword), end="")
