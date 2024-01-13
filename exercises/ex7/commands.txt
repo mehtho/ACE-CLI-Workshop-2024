@@ -1,0 +1,7 @@
+ping 8.8.8.8
+ping www.google.com
+
+dig www.google.com
+
+curl https://courses.cs.washington.edu/courses/cse163/20wi/files/lectures/L04/bee-movie.txt
+curl parrot.live
