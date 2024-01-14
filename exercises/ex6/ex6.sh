@@ -2,14 +2,10 @@
 
 read input_string
 
-echo $input_string
-
 hash=$(echo -n "$input_string" | sha256sum | cut -d' ' -f1)
 
-echo $hash
-
-if [ "$hash" = "9e11c362bc3d3572970b973d5cd86c073da358b6f9bceaa3be65d1a6487f8819" ]; then
-    echo "Exercise Complete!"
+if [ "$hash" = "e0f05da93a0f5a86a3be5fc0e301606513c9f7e59dac2357348aa0f2f47db984" ]; then
+    echo "Exercise Complete! "Bee" occurs $input_string times!"
 else
     echo "Exercise not complete."
 fi
